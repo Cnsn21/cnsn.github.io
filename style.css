@@ -1,0 +1,201 @@
+body{ 
+    background-color: rgba(223, 236, 238, 1);
+    overflow: scroll;
+    zoom: 1;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(banner-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper{
+    height: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 1580;
+    margin: 0;
+    width: 1000px;
+    padding-top: 17px;
+    padding-left: 120px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+
+ul{
+margin: 0;
+
+}
+
+ul li{
+list-style: none;
+display: inline;
+float: left;
+
+}
+
+ul li a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 0 20px;
+display: block;
+font-family: poppins-bold;
+}
+
+ul li a:hover {
+    color: rgba(119, 97, 255, 1);
+}
+
+.image-container{
+    position: relative;
+}
+
+.image-big {
+    width: 891px;
+    height: 680px;
+}
+
+.image-small {
+    width: 399px;
+    height: 229px;
+    position: relative; 
+    bottom: -80px; 
+    left: 120px;
+}
+
+.Human {
+    position: absolute;
+    top: 174px; 
+    left: 931px; 
+    font-size: 100px;
+    font-family: poppins-bold;
+}
+
+.artist {
+    position: absolute;
+    top: 450px; 
+    left: 931px; 
+    font-size: 48px;
+    font-family: poppins-med;
+}
+
+.who {
+    position: absolute;
+    top: 760px; 
+    left: 575px; 
+    font-size: 56px;
+    font-family: poppins-bold;
+}
+
+.bunch {
+    position: absolute;
+    top: 854px; 
+    left: 575px; 
+    right: 120px;
+    font-size: 32px;
+    font-weight: medium;
+    font-family: poppins-reg;
+}
+
+.fairy-work {
+    position: relative;
+    top: 160px; 
+    left: 120px; 
+    font-size: 56px;
+    font-weight: bold;
+    font-family: poppins-bold;
+}
+
+.fairy-work img{
+    top: 1194px;
+    
+}
+
+.box {
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #BBE4EA;
+    position: relative;
+    top: 600px; 
+    font-family: poppins-reg;
+    font-size: 24px;
+}
+
+.box p,
+.box form {
+    padding-left: 56px;
+}
+
+
+.box label {
+    margin-bottom: 10px; 
+}
+
+.get{
+    position: relative;
+    font-family: poppins-bold;
+    font-size: 48px;
+    padding-top: 48px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(119, 97, 255, 1) !important;
+}
+
+.box footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+}
+
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-med;
+    src: url(Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: poppins-reg;
+    src: url(Poppins-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
