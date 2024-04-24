@@ -131,7 +131,6 @@ ul li a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0;
 }
-
 .fairy-img img{
     width: 100%;
     height: 100%;
@@ -146,10 +145,6 @@ ul li a:hover {
     font-size: 24px;
 }
 
-.box p,
-.box form {
-    padding-left: 56px;
-}
 
 
 .box label {
@@ -193,12 +188,10 @@ input[type="submit"]:hover {
     src: url(Poppins-Regular.ttf);
 }
 
-
 .field{
     display: flex;
     flex-direction: column;
 }
-
 
 
 
