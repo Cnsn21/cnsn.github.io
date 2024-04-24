@@ -194,6 +194,11 @@ input[type="submit"]:hover {
 }
 
 
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
